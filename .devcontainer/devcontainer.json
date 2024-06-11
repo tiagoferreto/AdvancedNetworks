@@ -1,4 +1,4 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "postCreateCommand": "/bin/bash ./setup.sh"
+  "postCreateCommand": "chmod +x .devcontainer/setup.sh && .devcontainer/setup.sh"
 }
